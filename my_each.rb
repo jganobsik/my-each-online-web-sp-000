@@ -5,4 +5,4 @@ def my_each(collection) # put argument(s) here
   yield 
 end
 
-my_each
+my_each { |item| puts item|
