@@ -1,8 +1,10 @@
 def my_each(collection) # put argument(s) here
   # code here
   i = 0 
-  
-  yield 
+  while i < collection.length
+  yield(collection[i])
+  i += 1 
+end
 end
 
-my_each { |item| puts item|
+my_each { |item| puts item}
